@@ -13,11 +13,11 @@ Install-Module PsWeather -Scope CurrentUser
 ```
 
 ##Usage
-Once installed you can run the command and pass in the zipcode [-zip=17055] and number of days [-days=10].
+Once installed you can run the command and pass in the zipcode [-zip=17055] and number of days [-days=7].
 ```PowerShell
-weather 17055 10
+weather 17055 7
 ```
 or
 ```PowerShell
-weather -zip 17055 -days 10
+weather -zip 17055 -days 7
 ```
